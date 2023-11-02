@@ -3,7 +3,7 @@ const discord = require('discord.js');
 const { REST, Routes, Client, GatewayIntentBits,Events } =  require('discord.js');
 const command = require("./Commands.js")
 const dicsordBot = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.DirectMessages, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent] });
-const botToken = "NDI0MzIyMDM5MzI3ODgzMjY2.GqW8iw.BSItCly7fu6lJdP_xpLya2CDfp14DUJ0tbcaTQ";
+const botToken = "";
 
 const rest = new REST().setToken(botToken);
 
