@@ -1,0 +1,16 @@
+{
+  "name": "test-register",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "big-integer": "^1.6.51",
+    "discord.js": "^14.13.0",
+    "mysql": "^2.18.1"
+  }
+}
